@@ -29,19 +29,19 @@ function changeHeaderWhenScroll() {
   })
 }
 
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper(".swiper-container", {
   slidesPerView: 1,
   pagination: {
-    el: '.swiper-pagination'
+    el: ".swiper-pagination",
   },
-  mousewheel: true,
+  mousewhell: true,
   keyboard: true,
   breakpoints: {
     767: {
       slidesPerView: 2,
-      setWrapperSize: true
-    }
-  }
+      setWrapperSize: true,
+    },
+  },
 })
 
 const scrollReveal = ScrollReveal({
